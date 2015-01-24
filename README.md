@@ -25,8 +25,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     which contains "means()" or "std()" and extract the subset
 ### 3. Uses descriptive activity names to name the activities in the data set
     The next step is to use discriptive activity names, the origin values of activities are numbers which are not 
-    discriptive and we need to replace them with discriptive names, the correspondence between the numbers and names 
-    is as follows:
+    discriptive and we need to replace them with discriptive names, the correspondence between the numbers and 
+    names is as follows:
     1 WALKING
     2 WALKING_UPSTAIRS
     3 WALKING_DOWNSTAIRS
@@ -38,4 +38,5 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     "-" because "-" would cause choke on R functions
 ### 5 Create a new tidy data with the average of each variable for each activity and each subject
     The new tidy data contains the average value of each variable for each group, use group_by and summarize to 
-    get the grouped averages. The names of the variables in the new tidy data is the same as the dataset it comes from
+    get the grouped averages. The names of the variables in the new tidy data is the same as the dataset it comes 
+    from
